@@ -1,0 +1,13 @@
+approve:
+- commandHelpLink: ""
+  repos:
+  - openshift/backplane-api
+  require_self_approval: false
+lgtm:
+- repos:
+  - openshift/backplane-api
+  review_acts_as_lgtm: true
+plugins:
+  openshift/backplane-api:
+    plugins:
+    - approve
